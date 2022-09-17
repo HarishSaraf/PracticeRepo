@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-17T10:45:37 IST" name="Default suite" finished-at="2022-09-17T10:47:51 IST" duration-ms="134446">
+    <groups>
+    </groups>
+    <test started-at="2022-09-17T10:45:37 IST" name="Default test" finished-at="2022-09-17T10:47:51 IST" duration-ms="134446">
+      <class name="CCC.Amazon.MobileSelection">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:CCC.Amazon.MobileSelection@7e07db1f]" started-at="2022-09-17T10:45:37 IST" name="launchBrowser" finished-at="2022-09-17T10:46:25 IST" duration-ms="48298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="mobileSelection(java.util.HashMap)[pri:0, instance:CCC.Amazon.MobileSelection@7e07db1f]" started-at="2022-09-17T10:46:26 IST" name="mobileSelection" data-provider="getDataNew" finished-at="2022-09-17T10:47:49 IST" duration-ms="82749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=18,999, Mobile=OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CCC.Amazon.MobileSelection@7e07db1f]" started-at="2022-09-17T10:47:49 IST" name="tearDown" finished-at="2022-09-17T10:47:51 IST" duration-ms="2751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CCC.Amazon.MobileSelection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
