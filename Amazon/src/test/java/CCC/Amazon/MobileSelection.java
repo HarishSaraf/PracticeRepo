@@ -51,4 +51,9 @@ public class MobileSelection extends BaseTest{
 		List<HashMap<String, String>> data=ReadUtility.readJsonFile("TestData", "TestData1.json");
 		return new Object[][]{{data.get(0)}};
 	}
+
+	public void testMethod()
+	{
+		//This is a test method
+	}
 }
