@@ -36,7 +36,6 @@ public class MobileSelection extends BaseTest{
 	@DataProvider
 	public Object[][] getData()
 	{
-		//This is a data provider
 		HashMap<String, String> map1=new HashMap<String, String>();
 		map1.put("Price", "18,999");
 		map1.put("Mobile", "OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)");
